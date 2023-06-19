@@ -1,0 +1,125 @@
+*{
+    text-align: center;
+    margin-top: 2%;
+    -webkit-font-smooothing: antialiased;
+}
+
+body{
+    background-image: url("https://slidechef.net/wp-content/uploads/2021/10/Free-Google-Slides-Maths-Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+} 
+
+header{
+    margin-top: 0;
+    font-size: 1.5rem;
+    margin-left: 1%;
+}
+
+#display{
+    height: 3rem;
+    width: 18rem;
+    border-radius: 3rem;
+    border: solid #E3F2FD;
+    font-size: 40px;
+    background-color:#E3F2FD;
+    box-shadow: 3px 5px;
+}
+
+.digit_button{
+    margin-top: 1.5rem;
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: 1rem;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 40%;
+    border: solid #8EB0AA;
+    background-color: #8EB0AA;
+    box-shadow: 3px 5px;
+    /* color: red; */
+
+
+}
+
+/* .digit_button:active{
+    color:#467BAA;
+    border-color: whitesmoke;
+} */
+
+
+.digit_button:hover{
+    color: red;
+    border-color: orange;
+}
+
+fieldset{
+    border: solid gray;
+    width: 7rem;
+    height: 25rem;
+    border-radius: 15%;
+    margin-left: 32rem;
+    margin-top: 6rem;
+    /* margin: 0 auto; */
+    background-color: lightgrey;
+    /* margin  */
+    /* background-color: #8EB0AA */
+}
+
+.clear_button{
+    margin-top: 1.5rem;
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: 1rem;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 40%;
+    border: solid maroon;
+    background-color:maroon;
+    box-shadow: 3px 5px;
+}
+
+.clear_button:active{
+    color:darkred;
+    border-color:rgba(255, 0, 0, 0.658);
+}
+
+
+.operator_button{
+    margin-top: 1.5rem;
+    /* margin-left: 6px; */
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: 1rem;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 40%;
+    border: solid #4E645B;
+    background-color:#4E645B;
+    box-shadow: 3px 5px;
+
+
+}.operator_button:active{
+    color:white;
+    border-color: black;
+}
+
+.equal_button{
+    margin-top: 1.5rem;
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: 1rem;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 40%;
+    border: solid #467BAA;
+    background-color:#467BAA;
+    box-shadow: 3px 5px;
+}
+
+.equal_button:active{
+    color:navy;
+    border-color: navy;
+}
